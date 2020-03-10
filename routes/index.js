@@ -8,7 +8,7 @@ const data = await albumModel.getAllAlbums();
 
 res.render('template', { 
   locals: {
-    title: 'Album List', 
+    title: 'App Track', 
     data: data
 },
 
